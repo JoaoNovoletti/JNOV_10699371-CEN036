@@ -4,7 +4,7 @@ import sys #Importa o módulo syspara utilização posterior
 
 a = sys.argv[1] #Obtêm o primeiro parâmetro da linha de comando e atribui à variável a (no caso o cateto 1)
 b = sys.argv[2] #Obtêm o segundo parâmetro da linha de comando e atribui à variável b (no caso o cateto 2)
-if a.isdigit() and b.isdigit(): #Condicional que executa transforma as variáveis obtidas de str(string) para int (inteiro) caso a e b sejam considerados dígitos
+if a.isdigit() and b.isdigit(): #Condicional que transforma as variáveis obtidas de str(string) para int (inteiro) caso a e b sejam considerados dígitos
     a = int(a)  
     b = int(b) 
     if (a > 0 and b > 0) and (a < 1000 and b < 1000): #Condicional que executa o cálculo da hipotenusa e emite o resultado na tela, caso o número seja positivo e menor que 1000. *Obs.: Não precisaria introduzir a condição de positivo, pois ".isdigit()" não aceita sinais.
