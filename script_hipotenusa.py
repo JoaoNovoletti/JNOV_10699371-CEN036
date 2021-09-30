@@ -13,7 +13,7 @@ if a.isdigit() and b.isdigit(): #Condicional que transforma as variáveis obtida
         QuadradoHip = Quadradoa + Quadradob
         A=str(Quadradoa) 
         B=str(Quadradob)
-        print("O quadrado da hipotenusa para o triangulo retângulo com lados a=" + A + " e b=" + B + " é", QuadradoHip)
+        print("O quadrado da hipotenusa para o triangulo retângulo com lados a=" + A + " e b=" + B + ", é", QuadradoHip)
     elif (a > 0 and b > 0) and (a >= 1000 and b >= 1000): #Condicional que emite um aviso caso os dois números sejam maiores que 1000
         print("Foram inseridos dois valores interios e positivos, porém ambos são maiores ou iguais a 1000") 
     elif (a > 0 and b > 0) and ((a < 1000 and b >= 1000) or (a >= 1000 and b < 1000)): #Condicional que emite um aviso caso um dos números seja maior que 1000
