@@ -33,4 +33,4 @@ if isinstance(DNA, str) and n1.isdigit() and n2.isdigit() and n3.isdigit() and n
     else: #Condicional que alerta caso os valores de n1, n2, n3 ou n4 sejam maiores que a sequência de DNA
         print("O valor do(s) parâmetros n1, n2, n3 e/ou n4 é maior do que a sequência de DNA")
 else: #Condicional que alerta sobre os erros na inserção dos dados
-    print("Houve um erro de digitação. Por favor, insira sua sequência de DNA em seguida os valores do n1, n2, n3 e n4, nessa ordem. Separe os parâmetros por espaços")#
+    print("Houve um erro de digitação. Por favor, insira sua sequência de DNA em seguida os valores do n1, n2, n3 e n4 (números inteiros positivos), nessa ordem. Separe os parâmetros por espaços")#
